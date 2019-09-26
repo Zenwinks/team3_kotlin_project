@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CocktailsActivity" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".IngredientsActivity" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".RandomActivity" android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

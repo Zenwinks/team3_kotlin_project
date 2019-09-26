@@ -27,7 +27,8 @@
         android:layout_marginTop="236dp"
         android:text="Les cocktails"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="cocktails"/>
 
     <Button
         android:id="@+id/button2"
@@ -37,7 +38,8 @@
         android:layout_marginTop="389dp"
         android:text="Les ingrédients"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="ingredients"/>
 
     <Button
         android:id="@+id/button3"
@@ -47,6 +49,7 @@
         android:layout_marginTop="483dp"
         android:text="Cocktail mystère"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="random"/>
 
 </android.support.constraint.ConstraintLayout>
