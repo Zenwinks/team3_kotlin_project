@@ -6,25 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="234dp"
-        android:layout_height="94dp"
-        android:layout_marginTop="8dp"
-        android:text="Coktail Master"
-        android:textSize="35dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Cocktail Master"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="236dp"
+        android:layout_width="108dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/orange_circle_button"
         android:text="Les cocktails"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -32,10 +34,11 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="244dp"
-        android:layout_marginTop="389dp"
+        android:layout_width="118dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="308dp"
+        android:background="@drawable/green_circle_button"
         android:text="Les ingrédients"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -43,10 +46,11 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="54dp"
-        android:layout_marginTop="483dp"
+        android:layout_width="120dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="464dp"
+        android:background="@drawable/blue_circle_button"
         android:text="Cocktail mystère"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
